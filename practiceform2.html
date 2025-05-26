@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Complex Form</legend>
+        <form action="">
+            <fieldset>
+                <legend>Personal Introdution</legend>
+                <label for="name">Name</label>
+                <input type="text" name="taxt" id="name">
+                <label for="email">EmailID</label>
+                <input type="email" name="EmailID" id="email">
+                <label for="PhoneNO">phone number</label>
+                <input type="tel" name="phoneNo" id="PhoneNO" width="1">
+                <label for="date">Date of brath</label>
+                <input type="date" id="date">
+                <br/>
+
+                <label for="Gender">Gender:</label>
+                <label><input type="radio" name="radio" value="Male"> Male</label>
+                <label><input type="radio" value="Female" name="radio">Female</label>
+                <label for="Country">Country</label>
+                <select name="Country" id="Country:">
+                    <option value="india">India</option>
+                    <option value="uk">UK</option>
+                    <option value="Pk">PK</option>
+                </select>
+                
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <label for="taxt">Address section</label>
+                    <input type="text" name="taxt" id="taxt">
+                    <label for="City">City</label>
+                    <input type="text" name="taxt" id="City">
+                    <label for="state">Name</label>
+                    <input type="text" name="taxt" id="state">
+                    <label for="Zip code">Zip code</label>
+                    <input type="number" name="number" id="Zip code">
+                </legend>
+            </fieldset>
+            <fieldset>
+                <legend>Other informatio</legend>
+                <label for="Comment">Comment</label>
+                <textarea name="text" id="Comment" cols="30" rows="10"></textarea>
+                <label for="check">I agree for this</label>
+                <input type="checkbox" id="check">
+            </fieldset>
+            <input type="submit" name="submit" value="submit">
+
+        </form>
+
+    </fieldset>
+</body>
+</html>
